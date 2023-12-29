@@ -24,6 +24,3 @@ const sideBar = document.querySelector('.side-menu');
 const content = document.querySelector('.main-content');
 const bar = document.querySelectorAll('.bar');
 hamburg.addEventListener('click', mobileSideBar);
-window.addEventListener('resize', () => {
-    location.reload();
-})
